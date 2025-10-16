@@ -5,30 +5,28 @@ Here we present the results obtained as part of this study, the configuration fi
 ---
 
 # Dependencies
-Our results and graphs were produced using **Python 3.10**.  
-To reproduce our results or run the Jupyter notebooks in [plotting_notebooks](./plotting_notebooks/), the following Python packages are required:
+Our results were produced using **Python 3.10**.  To reproduce our results, the following Python packages are required:
 
 ## Gravitational-wave packages
-- `bilby` – vX.XX  
-- `lal` – vX.XX  
-- `lalsimulation` – vX.XX  
-- `gwpy` – vX.XX  
-- `pesummary` – vX.XX  
+- `bilby` – v2.2.2.1
+- `lalsimulation` – v5.4.0  
+
+In addition, Plotting notebooks can be run with the following Python packages:
 
 ## General packages
-- `numpy` – vX.XX  
-- `matplotlib` – vX.XX  
-- `scipy` – vX.XX  
-- `configargparse` – vX.XX
+- `numpy` – v1.26.4
+- `matplotlib` – v3.9.4  
+- `scipy` – v1.13.1
+- `pesummary` - v1.5.3
 
 ---
 
 # Repository Structure
 The repository is organized as follows:
 
-- **[analysis_results](./analysis_results)** – All results, separated by run.
-- **[bilby_configs](./bilby_configs)** – Example `config.ini` files used in the analyses. The actual config files for each analysis can be found in the corresponding subdirectory of [analysis_results](./analysis_results).
-- **[plots](./plots)** – All plots included in the paper, organized by type.
+- **[data](./data)** – All results, separated by run.
+- **[bilby_configs](./bilby_configs)** – Example `config.ini` files used in the analyses.
+- **[plots](./plots)** – Plots included in the paper, organized by type.
 - **[plotting_notebooks](./plotting_notebooks)** – Jupyter notebooks that generate the paper's plots and the Mahalanobis recovery scores.
 
 ---
