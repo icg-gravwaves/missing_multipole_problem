@@ -11,7 +11,7 @@ os.environ["GWPY_RCPARAMS"] = "False"
 plt.style.use("../MATPLOTLIB.sty")
 
 # Base file path to outdirs and data
-FILE_PATH = "../analysis_results/{outdir}/final_result/{param}_{freq}_data0_1126259642-413_analysis_H1L1V1_result.json"
+FILE_PATH = "../data/{outdir}/{param}_{freq}_data0_1126259642-413_analysis_H1L1V1_result.json"
 
 # Starting frequencies for injections
 STARTING_FREQUENCIES = ['10', '13', '20']
