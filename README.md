@@ -1,4 +1,8 @@
 # The Missing Multipole Problem: Investigating biases from model starting frequency in gravitational-wave analyses -- Data Release
+R. Ursell<sup>1</sup>, C. Hoy<sup>1</sup>, I. Harry<sup>1</sup>, L. K. Nuttall<sup>1</sup>
+
+<sub>1. University of Portsmouth, Portsmouth, PO1 3FX, United Kingdom</sub>
+
 This is the data release for the paper _"The Missing Multipole Problem: Investigating biases from model starting frequency in gravitational-wave analyses"_.  
 Here we present the results obtained as part of this study, the configuration files used to produce them, and the plotting code used to generate the figures in the paper.
 
