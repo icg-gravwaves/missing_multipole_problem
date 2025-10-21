@@ -8,7 +8,15 @@ Here we present the results obtained as part of this study, the configuration fi
 
 We encourage use of these data in future work. If you use the material provided here, please cite the paper using the reference:
 
-        @article{
+        @article{Ursell:2025ufb,
+            author = "Ursell, Ryan and Hoy, Charlie and Harry, Ian and Nuttall, Laura K.",
+            title = "{The Missing Multipole Problem: Investigating biases from model starting frequency in gravitational-wave analyses}",
+            eprint = "2510.15048",
+            archivePrefix = "arXiv",
+            primaryClass = "gr-qc",
+            reportNumber = "LIGO-P2500624",
+            month = "10",
+            year = "2025"
         }
 
 ---
